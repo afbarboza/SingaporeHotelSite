@@ -1,0 +1,27 @@
+/************ LOGIN PAGE ************/
+.login_container {
+	float: right;
+	padding-top: 9px;
+}
+
+#loginbtn {
+	margin-top: 0px;
+	margin-right: 5px;
+	float: left;
+}
+
+#registerbtn {
+	margin-top: 0px;
+	float: left;
+}
+
+#banner {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	float: left;
+}
+
+#loginbtn, #registerbtn {
+	margin-top: 3px;
+}

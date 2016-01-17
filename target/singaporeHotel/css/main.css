@@ -1,0 +1,335 @@
+* {
+ 	 /*outline: 1px solid red !important; */
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	min-width: 848px;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-color: rgba(1, 1, 1, 0.5);;
+}
+
+p {
+	text-align: justify;
+}
+
+img {
+	height: 100%;
+	overflow: hidden;
+}
+
+label {
+	/*float: left;*/
+	text-align: right;
+	margin-left: 5px;
+	padding-top: 12px;
+	padding: 1px;
+	font-size: 16px;
+}
+
+textarea {
+	width: 100%;
+}
+
+
+.copy_right {
+	bottom: 0;
+	position: fixed;
+	margin-left: 40%;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+}
+
+
+.center {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.barfont {
+	color: white;
+	font-size: 20px;
+}
+
+.color_font_pattern {
+	color: white;
+}
+
+.btnpattern {
+	width: inherit;
+	border: transparent;
+	border-color: white;
+	color: white;
+	max-width: 240px;
+	float: left;
+	background-color: rgba(1, 1, 1, 0.5);
+	margin-top: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 30px;
+	padding-right: 30px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	margin-right: 12px;
+}
+
+.btnpattern:hover {
+	background-color: white;
+	color: rgba(1, 1, 1, 0.95);
+	border-color: rgba(1, 1, 1, 0.5);
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+	box-shadow: 0 12px 14px rgba(9,9,9,0.12), 0 12px 16px rgba(9,9,9,0.24);
+}
+
+.tfpattern {
+	height: 25px;
+}
+
+.tfpattern:hover {
+	border-bottom-color: #2B3E50;
+}
+
+.nav_container {
+	background-color: rgba(43, 62, 80, .5);
+	border: 0px;
+	padding: 20px;
+	width: 100%;
+	float: left;
+	box-shadow: 5px 5px 5px 5px rgba(1,1,1,0.3);
+}
+
+.menu {	
+	padding: 12px;
+	margin: 0px;
+	float: left;
+}
+
+.hotel_font {
+	font-family: 'Poiret One', cursive;
+	font-size: 24px;
+	padding: inherit;
+}
+
+.nav_container>ul>li {	
+	display: inline;
+	padding-top: inherit;
+	padding-bottom: inherit;
+	padding-right: inherit;
+}
+
+.nav_container>ul>li>a {
+	color: white;
+	text-decoration: none;
+	padding: inherit;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.nav_container>ul>li>a:hover {	
+	color: white;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	text-shadow: 0 0 555px #fff, 0 0 3px #fff, 0 0 20px #5292B2, 0 0 200px #CCFFFF,0 0 200px #CCFFFF,0 0 200px #CCFFFF,0 0 200px #CCFFFF;
+}
+
+.error_msg {
+	color: rgb(255, 51, 0);
+	height: 15px;
+	font-size: 14px;
+}
+
+.error_msg.blueText {
+	color: rgb(153, 204, 0);
+}
+
+#banner>img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+}
+
+/* Placeholder Fragment */
+.leftaside { 
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.formclass {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 25%;/* placeholder! */
+	margin-right: 25%;/*placeholder! */
+	min-width: 379px;
+	width: 50%;
+	padding: 40px;
+	padding-top: 0px;
+	border-radius: 5%;
+	background-color: rgba(0, 0, 0, 0.75); 
+	box-shadow: 5px 5px 5px rgba(1,1,1,0.3);
+}
+
+.formclass input {
+	width: 60%; /* largura do tf*/
+	padding: 3px;
+	display: block;
+	border-radius: 12px;
+}
+
+.formclass select {
+	width: 100px;
+	padding: 3px;
+	display: block;
+	border-radius: 12px;
+}
+
+/************ REGISTRATION PAGE ************/
+#registerform select {
+	width: 100px;
+	padding: 3px;
+	display: block;
+}
+
+#sexo input {
+	display: inline;
+	width: 15px;
+	height: 15px;
+}
+
+fieldset {
+	margin-top: 10px;
+	width: 100%;
+}
+
+#forcasenha {
+	width: inherit;
+	height: 30px;
+	/*padding: 3px;*/
+	display: block;
+}
+
+#forcasenha>div {
+	width: 60%;
+	float: left;
+	margin-top: 2px;
+}
+
+#infoprogbar {
+	float: left;
+	font-size: 10px;
+	font-style: italic;
+	border-bottom: 2px;
+}
+
+/***************************************************************************
+	Progress bar - baseado (não copiado!) no código de:
+		Light CSS3 Loading Bars by MediaLoot
+		URL: http://medialoot.com/item/light-css3-loading-bars
+		Designer: Tony Thomas
+*/
+.container_progress_bar {
+	background-color:rgb(159,159,159);
+	width:60%;
+	height:9px;
+	border-color:rgb(150,150,150);
+	border-width:1px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border-style: solid;
+	-moz-box-shadow:0px 1px 0px rgba(255,255,255,0.25) ,inset 0px 1px 2px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0px 1px 0px rgba(255,255,255,0.25) ,inset 0px 1px 2px rgba(0,0,0,0.5);
+	box-shadow:0px 1px 0px rgba(255,255,255,0.25) ,inset 0px 1px 2px rgba(0,0,0,0.5);
+}
+
+.weak {
+	background-image:-moz-linear-gradient(1% 40% 0deg,rgb(255,10,10) 0%,rgb(255,10,10) 1%,rgb(199,20,14) 99%,rgb(199,20,14) 100%); 
+	background-image:-webkit-gradient(linear,1% 40%,99% 40%,color-stop(0, rgb(255,10,10)),color-stop(0.01, rgb(255,10,10)),color-stop(0.99, rgb(199,20,14)),color-stop(1, rgb(199,20,14)));
+	background-image:-webkit-linear-gradient(0deg,rgb(255,10,10) 0%,rgb(255,10,10) 1%,rgb(199,20,14) 99%,rgb(199,20,14) 100%);
+	background-image:-o-linear-gradient(0deg,rgb(255,10,10) 0%,rgb(255,10,10) 1%,rgb(199,20,14) 99%,rgb(199,20,14) 100%);
+	background-image:-ms-linear-gradient(0deg,rgb(255,10,10) 0%,rgb(255,10,10) 1%,rgb(199,20,14) 99%,rgb(199,20,14) 100%);
+	background-image:linear-gradient(0deg,rgb(255,10,10) 0%,rgb(255,10,10) 1%,rgb(199,20,14) 99%,rgb(199,20,14) 100%);
+	width: 33.3%;
+	height: 8px;
+	-moz-border-radius:5px 0px 0px 5px;
+	-webkit-border-radius:5px 0px 0px 5px;
+	border-radius:5px 0px 0px 5px;
+	-moz-box-shadow:inset 0px 1px 2px rgb(0,0,0);
+	-webkit-box-shadow:inset 0px 1px 2px rgb(0,0,0);
+	box-shadow:inset 0px 1px 2px rgb(0,0,0);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff68767b,endColorstr=#ff828d91,GradientType=1)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff68767b,endColorstr=#ff828d91,GradientType=1);
+}
+
+.strong {
+	background-image:-moz-linear-gradient(1% 40% 0deg,rgb(0,128,255) 0%,rgb(0,128,255) 1%,rgb(0,191,255) 99%,rgb(0,191,255) 100%); 
+	background-image:-webkit-gradient(linear,1% 40%,99% 40%,color-stop(0, rgb(0,128,255)),color-stop(0.01, rgb(0,128,255)),color-stop(0.99, rgb(0,191,255)),color-stop(1, rgb(0,191,255)));
+	background-image:-webkit-linear-gradient(0deg,rgb(0,128,255) 0%,rgb(0,128,255) 1%,rgb(0,191,255) 99%,rgb(0,191,255) 100%);
+	background-image:-o-linear-gradient(0deg,rgb(0,128,255) 0%,rgb(0,128,255) 1%,rgb(0,191,255) 99%,rgb(0,191,255) 100%);
+	background-image:-ms-linear-gradient(0deg,rgb(0,128,255) 0%,rgb(0,128,255) 1%,rgb(0,191,255) 99%,rgb(0,191,255) 100%);
+	background-image:linear-gradient(0deg,rgb(0,128,255) 0%,rgb(0,128,255) 1%,rgb(0,191,255) 99%,rgb(0,191,255) 100%);
+	width: 100%;
+	height: 8px;
+	-moz-border-radius:5px 0px 0px 5px;
+	-webkit-border-radius:5px 0px 0px 5px;
+	border-radius:5px 0px 0px 5px;
+	-moz-box-shadow:inset 0px 1px 3px rgb(32,73,112);
+	-webkit-box-shadow:inset 0px 1px 3px rgb(32,73,112);
+	box-shadow:inset 0px 1px 3px rgb(32,73,112);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff0080ff,endColorstr=#ff00bfff,GradientType=1)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff0080ff,endColorstr=#ff00bfff,GradientType=1);
+}
+
+.medium {
+	background-image:-moz-linear-gradient(1% 40% 0deg,rgb(92,181,25) 0%,rgb(92,181,25) 1%,rgb(217,242,153) 99%,rgb(217,242,153) 100%); 
+	background-image:-webkit-gradient(linear,1% 40%,99% 40%,color-stop(0, rgb(92,181,25)),color-stop(0.01, rgb(92,181,25)),color-stop(0.99, rgb(217,242,153)),color-stop(1, rgb(217,242,153)));
+	background-image:-webkit-linear-gradient(0deg,rgb(92,181,25) 0%,rgb(92,181,25) 1%,rgb(217,242,153) 99%,rgb(217,242,153) 100%);
+	background-image:-o-linear-gradient(0deg,rgb(92,181,25) 0%,rgb(92,181,25) 1%,rgb(217,242,153) 99%,rgb(217,242,153) 100%);
+	background-image:-ms-linear-gradient(0deg,rgb(92,181,25) 0%,rgb(92,181,25) 1%,rgb(217,242,153) 99%,rgb(217,242,153) 100%);
+	background-image:linear-gradient(0deg,rgb(92,181,25) 0%,rgb(92,181,25) 1%,rgb(217,242,153) 99%,rgb(217,242,153) 100%);
+	width: 66.6%;
+	height: 8px;
+	-moz-border-radius:5px 0px 0px 5px;
+	-webkit-border-radius:5px 0px 0px 5px;
+	border-radius:5px 0px 0px 5px;
+	-moz-box-shadow:inset 0px 1px 2px rgb(52,84,18);
+	-webkit-box-shadow:inset 0px 1px 2px rgb(52,84,18);
+	box-shadow:inset 0px 1px 2px rgb(52,84,18);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff5cb519,endColorstr=#ffd9f299,GradientType=1)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff5cb519,endColorstr=#ffd9f299,GradientType=1);
+}
+/**************************************************************************
+ Final do código de progress bar 
+ */
+
+
+
+/**************** CONTACT PAGE ***************/
+#como input { /* Para estruturar os checkboxes de 'Como nos conheceu' */
+	display: inline;
+	width: 15px;
+	height: 15px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+}
